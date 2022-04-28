@@ -7,7 +7,7 @@ git pull
 
 # run R scripts
 cd R
-R CMD BATCH --no-save test_connection.R
+R CMD BATCH --no-save test.connection.R
 cd ..
 
 # one last pull, then push the changes
