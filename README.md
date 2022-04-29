@@ -1,6 +1,7 @@
-### BIAD
+<a href="http://biadwiki.org/"><img src="tools/logos/BIAD.logo.round.png" alt="BIAD" height="70"/></a>
+# BIAD
 ## Big Interdisciplinary Archaeological Database
-This github repository provides support for the BIAD wiki biadwiki.org 
+This github repository provides support for the BIAD wiki [biadwiki.org](http://biadwiki.org/) 
 
 ## Auto images
 Various summary statistics and images are generated automatically from BIAD and used to populate the BIADwiki.
