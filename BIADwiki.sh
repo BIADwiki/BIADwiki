@@ -18,11 +18,11 @@ git commit -m "auto update from server"
 git push
 git status
 
-# update the Gist
+# update the Gists
 ls
 cd ..
 ls
-cd Gist
+cd Gists/Phases
 ls
 git status
 git pull
