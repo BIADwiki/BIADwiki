@@ -19,8 +19,11 @@ git push
 git status
 
 # update the Gist
+ls
 cd ..
+ls
 cd Gist
+ls
 git status
 git pull
 git add -A
