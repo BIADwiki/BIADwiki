@@ -19,14 +19,22 @@ git push
 git status
 
 # update the Gists
-ls
-cd ..
-ls
-cd Gists/Phases
-ls
+cd ../Gists
+
+cd Sites
 git status
 git pull
 git add -A
 git commit -m "auto update from server"
 git push
 git status
+cd ..
+
+cd Phases
+git status
+git pull
+git add -A
+git commit -m "auto update from server"
+git push
+git status
+cd ..
