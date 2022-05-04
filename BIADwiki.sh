@@ -19,6 +19,7 @@ git push
 git status
 
 # update the Gists
+# surely with a loop
 cd ../Gists
 
 cd Sites
