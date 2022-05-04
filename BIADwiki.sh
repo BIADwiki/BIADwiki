@@ -17,3 +17,13 @@ git add -A
 git commit -m "auto update from server"
 git push
 git status
+
+# update the Gist
+cd ..
+cd Gist
+git status
+git pull
+git add -A
+git commit -m "auto update from server"
+git push
+git status
