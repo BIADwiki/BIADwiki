@@ -19,7 +19,6 @@ git push
 git status
 
 # update the Gists
-# surely with a loop
 cd ../Gists/table_comments
 
 cd standard
@@ -31,3 +30,20 @@ git push
 git status
 cd ..
 
+cd zoptions
+git status
+git pull
+git add -A
+git commit -m "auto update from server"
+git push
+git status
+cd ..
+
+cd ztemp
+git status
+git pull
+git add -A
+git commit -m "auto update from server"
+git push
+git status
+cd ..
