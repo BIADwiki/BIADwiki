@@ -20,9 +20,9 @@ git status
 
 # update the Gists
 # surely with a loop
-cd ../Gists
+cd ../Gists/table_comments
 
-cd Sites
+cd standard
 git status
 git pull
 git add -A
@@ -31,11 +31,3 @@ git push
 git status
 cd ..
 
-cd Phases
-git status
-git pull
-git add -A
-git commit -m "auto update from server"
-git push
-git status
-cd ..
