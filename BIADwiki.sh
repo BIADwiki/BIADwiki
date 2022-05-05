@@ -21,10 +21,8 @@ git status
 # update the Gists
 # surely with a loop
 cd ../Gists/table_comments
-ls
+
 cd standard
-ls
-echo"here"
 git status
 git pull
 git add -A
