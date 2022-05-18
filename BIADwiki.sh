@@ -47,3 +47,15 @@ git commit -m "auto update from server"
 git push
 git status
 cd ..
+
+cd ..
+cd summary_stats
+
+cd row_counts
+git status
+git pull
+git add -A
+git commit -m "auto update from server"
+git push
+git status
+cd ..
