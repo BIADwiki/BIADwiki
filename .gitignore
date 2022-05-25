@@ -13,3 +13,7 @@
 
 # Bloody mac files
 .DS_Store
+
+# files to enable auto emailing
+gmailr.json
+.secret
