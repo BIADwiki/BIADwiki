@@ -3,17 +3,17 @@
 ## Big Interdisciplinary Archaeological Database
 This github repository provides support for the BIAD wiki [biadwiki.org](http://biadwiki.org/) 
 
-## Auto images
+## auto.make
 Various summary statistics and images are generated automatically from BIAD and used to populate the BIADwiki.
-These are coded in R, and run on the hosting server regularly. 
+These are coded in R, with file names 'auto.make.xxxxxx.R and run on the hosting server regularly. 
 
 ## admin workflow
 The pipeline is run automatically by admin.
 A single bash script BIADwiki.sh is run by the crontab schedule. 
 BIADwiki.sh invokes R to run a single R script controller.R.
-The R script controller.R runs various other R scripts.
+The R script controller.R runs the auto.make. R scripts.
 Login credentials for the local server are stored in the .Rprofile and therefore are automatically invoked when the server runs R in admin.
 
 ## Outside pipeline
 Various R scripts produce outputs that do not need to be run regularly. 
-These still reside in the R folder, but are not included in the controller.R script.
+These still reside in the R folder, and are prefixed 'make.' not 'auto.make.'
