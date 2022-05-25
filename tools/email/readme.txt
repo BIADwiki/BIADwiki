@@ -1,4 +1,4 @@
-This folder contains the following files/folders that are on .gitignore:
+This folder contains the following files/folders on the server, but also listed in .gitignore for security. Therefore you cannot see them in a clone.
 
 .secret
 gmailr.json
