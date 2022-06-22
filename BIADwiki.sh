@@ -39,14 +39,6 @@ git push
 git status
 cd ..
 
-cd ztemp
-git status
-git pull
-git add -A
-git commit -m "auto update from server"
-git push
-git status
-cd ..
 
 cd ..
 cd summary_stats
