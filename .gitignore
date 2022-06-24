@@ -10,6 +10,7 @@
 
 # R Environment Variables
 .Renviron
+.Rprofile
 
 # Bloody mac files
 .DS_Store
