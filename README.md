@@ -3,6 +3,25 @@
 ## Big Interdisciplinary Archaeological Database
 This github repository provides support for the BIAD wiki [biadwiki.org](http://biadwiki.org/) 
 
+## Running scripts
+Various credentials are confidential, so running these R scripts requires various objects to be first created.
+This is achieved with the .Rprofile document in the R folder, which is of course not visible on the github as it is on the .gitignore list.
+Therefore you will need to add the following to your own .Rprofile, where 'xxxxx' are credentials provided by the BIAD administrator:
+
+user <- 'xxxxx'
+
+password <- 'xxxxx'
+
+hostname <- 'xxxxx'
+
+hostuser <- 'xxxxx'
+
+keypath <-'xxxxx'
+
+biad.address <- 'xxxxx'
+
+ssh <- TRUE
+
 ## auto.make
 Various summary statistics and images are generated automatically from BIAD and used to populate the BIADwiki.
 These are coded in R, with file names 'auto.make.xxxxxx.R and run on the hosting server regularly. 
