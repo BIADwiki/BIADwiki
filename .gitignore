@@ -3,7 +3,7 @@
 .Rapp.history
 
 # Session Data files
-.RData
+*.RData
 
 # User-specific files
 .Ruserdata
@@ -21,3 +21,5 @@ gmailr.json
 
 # data outputs
 *.csv
+
+# hello
