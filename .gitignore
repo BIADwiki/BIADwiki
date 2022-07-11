@@ -20,4 +20,4 @@ gmailr.json
 .secret
 
 # data outputs
-.csv
+*.csv
