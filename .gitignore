@@ -18,3 +18,6 @@
 # files to enable auto emailing
 gmailr.json
 .secret
+
+# data outputs
+.csv
