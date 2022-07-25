@@ -45,4 +45,4 @@ These still reside in the R folder.
 ## Test a table for Robert
 | siteID  | apples  |cows  |
 |---      |---      |---   |
-|23       |\\N      |tree  |
+|\\\N     |\\N      |\N    |
