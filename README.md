@@ -41,3 +41,8 @@ Login credentials for the local server are stored in the .Rprofile and therefore
 ## Outside pipeline
 Various R scripts produce outputs that do not need to be run regularly, or are once off tasks. 
 These still reside in the R folder.
+
+## Test a table for Robert
+| siteID  | apples  |cows  |
+|---      |---      |---   |
+|23       |56       |tree  |
