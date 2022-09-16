@@ -4,24 +4,17 @@
 This github repository provides support for the BIAD wiki [biadwiki.org](http://biadwiki.org/) 
 
 ## Running scripts
-Various credentials are confidential, so running these R scripts requires various objects to be first created.
+Credentials are confidential, so running these R scripts requires various objects to be first created.
 This is achieved with the .Rprofile document in the R folder, which is of course not visible on the github as it is on the .gitignore list.
 Creating the .Rprofile requires a new .txt file. When re-naming the file make sure that the ".txt" extension gets removed, and the file is .Rprofile.
 Make sure that the file extensions are visible and editable when creating the .Rprofile. Otherwise you will end up with a .txt file "Rprofile".
 You will need to add the following to your own .Rprofile, where 'xxxxx' are credentials provided by the BIAD administrator:
 
 user <- 'xxxxx'
-
 password <- 'xxxxx'
-
 hostname <- 'xxxxx'
-
 hostuser <- 'xxxxx'
-
 keypath <-'xxxxx'
-
-biad.address <- 'xxxxx'
-
 ssh <- TRUE
 
 
