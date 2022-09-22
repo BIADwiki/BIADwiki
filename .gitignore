@@ -1,16 +1,10 @@
-# History files
-.Rhistory
-.Rapp.history
-
-# Session Data files
-*.RData
-
-# User-specific files
-.Ruserdata
-
-# R Environment Variables
+# R Environment Variables, session data etc.
 .Renviron
 .Rprofile
+.Rhistory
+.Rapp.history
+*.RData
+.Ruserdata
 
 # Bloody mac files
 .DS_Store
