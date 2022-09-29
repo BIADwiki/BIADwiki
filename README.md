@@ -11,10 +11,15 @@ Make sure that the file extensions are visible and editable when creating the .R
 You will need to add the following to your own .Rprofile, where 'xxxxx' are credentials provided by the BIAD administrator:
 
 user <- 'xxxxx'
+
 password <- 'xxxxx'
+
 hostname <- 'xxxxx'
+
 hostuser <- 'xxxxx'
+
 keypath <-'xxxxx'
+
 ssh <- TRUE
 
 
