@@ -15,3 +15,7 @@ gmailr.json
 
 # data outputs
 *.csv
+
+# keys
+.ppk
+.pem
