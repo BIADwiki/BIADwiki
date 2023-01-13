@@ -39,3 +39,7 @@ Login credentials for the local server are stored in the .Rprofile and therefore
 ## Outside pipeline
 Various R scripts produce outputs that do not need to be run regularly, or are once off tasks. 
 These still reside in the R folder.
+
+## Personal or private 
+Files prefaced 'private.xxxxx.R' will not be tracked or saved on Github, so feel free to use these for your own personal analyses.
+These files will only exist on your machine.
