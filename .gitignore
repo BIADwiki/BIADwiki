@@ -6,6 +6,9 @@
 *.RData
 .Ruserdata
 
+# private R files
+private.*
+
 # Bloody mac files
 .DS_Store
 
