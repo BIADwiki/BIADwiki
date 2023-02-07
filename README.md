@@ -1,4 +1,4 @@
-<a href="http://biadwiki.org/"><img src="tools/logos/BIAD.logo.net.png" alt="BIAD" height="70"/></a>
+<a href="http://biadwiki.org/"><img src="tools/logos/BIAD.logo.net.png" alt="BIAD" height="150"/></a>
 # BIAD
 ## Big Interdisciplinary Archaeological Database
 This github repository provides support for the BIAD wiki [biadwiki.org](http://biadwiki.org/) 
