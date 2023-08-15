@@ -16,7 +16,7 @@ Login credentials for the local server are stored in the .Rprofile and therefore
 ### 2. General example R scripts for users
 Files prefaced 'example.xxxxx.R' are generic example files for end users wishing to interact with BIAD via R, for example when building a script to both query and analyse data.
 Get a github account, then clone the whole repository to your local machine to use the scripts. If you want to collaborate with coding (rather than just use it) you will need to request permission to push, from the database administrator.
-Credentials are confidential, so you wil first (once only) need to create a .Rprofile, and store it in your R_USER folder. You can check which folder this is by running path.expand('~/') in R.
+Credentials are confidential, so you will first (once only) need to create a .Rprofile, and store it in your R_USER folder. You can check which folder this is by running path.expand('~/') in R.
 
 The .Rprofile file (note it only has a dot and file ending, so it it is a hidden file) must contain the following lines which can be obtained fro the database administrator:
 
