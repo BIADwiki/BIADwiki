@@ -16,7 +16,9 @@ Login credentials for the local server are stored in the .Rprofile and therefore
 ### 2. General example R scripts for users
 Files prefaced 'example.xxxxx.R' are generic example files for end users wishing to interact with BIAD via R, for example when building a script to both query and analyse data.
 Get a github account, then clone the whole repository to your local machine to use the scripts. If you want to collaborate with coding (rather than just use it) you will need to request permission to push, from the database administrator.
-Credentials are confidential, so running these R scripts requires various objects to be first created, which can be obtained fro the database administrator:
+Credentials are confidential, so you wil first (once only) need to create a .Rprofile, and store it in your R_USER folder. You can check which folder this is by running path.expand('~/') in R.
+
+The .Rprofile file (note it only has a dot and file ending, so it it is a hidden file) must contain the following lines which can be obtained fro the database administrator:
 
 user <- 'xxxxx'
 
@@ -28,13 +30,14 @@ hostuser <- 'xxxxx'
 
 pempath <-'xxxxx'
 
-These objects can be added to the R script as a boilerplate header, but it is more elegant to create a single file once only called .Rprofile, and put it in your cloned R folder. 
-This file will not be visible on the github as it is on the .gitignore list. Creating the .Rprofile requires a new .txt file. When re-naming the file make sure that the ".txt" extension gets removed, and the file is .Rprofile.
-Make sure that the file extensions are visible and editable when creating the .Rprofile. Otherwise you will end up with a .txt file "Rprofile".
+These BIAD credentials will now become visible to R from any directory. Any R script should begin with the following line, to first pull some basic R functions from the BIADwiki repo:
+
+source("https://raw.githubusercontent.com/BIADwiki/BIADwiki/main/R/functions.R")
+
 
 ### 3. Personal R scipts
-Files prefaced 'private.xxxxx.R' in your cloned repository will not be tracked or saved on Github, so feel free to use these for your own personal analyses.
-These files will only exist on your machine.
+Files prefaced 'private.xxxxx.R' in your cloned repository will not be tracked or saved on Github, and will only exist on your machine.
+
 
 
 
