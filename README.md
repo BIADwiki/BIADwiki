@@ -39,7 +39,13 @@ source("https://raw.githubusercontent.com/BIADwiki/BIADwiki/main/R/functions.R")
 ### 3. Personal R scipts
 Files prefaced 'private.xxxxx.R' in your cloned repository will not be tracked or saved on Github, and will only exist on your machine.
 
+## Future plans
 
+### Automatic phase dating
+Work is underway to extend functionality in the R package ADMUR to generate automatic Bayesian phase date estimates.
+
+### Automatic Harris matrix extraction
+Plans to extend the ADMUR package to atomatically extract Harris matrices from the phases stored in BIAD
 
 
 
