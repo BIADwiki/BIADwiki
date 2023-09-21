@@ -12,6 +12,7 @@ A single bash script BIADwiki.sh is run by the crontab schedule.
 BIADwiki.sh invokes R to run a single R script controller.R.
 The R script controller.R runs the auto.make.xxx.R scripts.
 Login credentials for the local server are stored in the .Rprofile and therefore are automatically invoked when the server runs R in admin.
+These scripts will not work if you want to run them externaly from the server as a standard user. To fix this issue it is necessary to first load the functions source("https://raw.githubusercontent.com/BIADwiki/BIADwiki/main/R/functions.R") and to replace the "query.database" function with "run.server.query(query.database(sql.command)".
 
 ### 2. General example R scripts for users
 Files prefaced 'example.xxxxx.R' are generic example files for end users wishing to interact with BIAD via R, for example when building a script to both query and analyse data.
