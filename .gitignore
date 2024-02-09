@@ -17,8 +17,6 @@ server.script.R
 gmailr.json
 .secret
 
-# data outputs
-*.csv
 
 # keys
 .ppk
