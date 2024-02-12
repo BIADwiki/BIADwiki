@@ -1,0 +1,2 @@
+﻿"SampleID","PhaseID","TaxonCode","PlantPart1","PlantPart2","PlantPart3","PlantPart4","preservation_type_1","preservation_type_2","LevelOfIdentification","TotalCount","NumberOfContexts","Ubiquity","PresenceOnly","time_added","user_added","time_last_update","user_last_update"
+"918120","BBT","HORSNAK","chaff: rachis internode","chaff: rachis","chaff: glumes/fragments","chaff: glume base","charring","waterlogging","1","885","19","0.413","0",NULL,"adrian@localhost",NULL,NULL
