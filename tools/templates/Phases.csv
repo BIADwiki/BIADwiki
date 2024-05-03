@@ -1,2 +1,2 @@
 N"PhaseID","SiteID","Culture1","Culture2","Culture3","Subculture","Period","PeriodNotes","Citations","Type","StartBCEreported","EndBCEreported","gaussianModelMu","gaussianModelSigma","time_added","user_added","time_last_update","user_last_update"
-"PENDI2","S03277","Impresso","Cardial","Grossgartach","LNI","EN","Phases I-II","le-br2006a","cave/rockshelter; cultural layer; occupation deposit: internal","5750","5150","7415","199",NULL,NULL,NULL,NULL
+"VLAHA1","S11460","Wietenberg","Hinkelstein","Grossgartach",NULL,"LBA","Bronze D - Hallstatt A",NULL,"settlement; pit","1112","935","3448","501",NULL,NULL,NULL,NULL
