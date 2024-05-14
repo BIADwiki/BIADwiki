@@ -1,2 +1,2 @@
 N"IndividualID","GraveID","IndividualName","Culture","AgeMin","AgeMax","AgeCategorical","AgeNote","Sex","DepositionType","CitationID","ItemID","aDNAID","aDNACitationID","Flag","notes","time_added","user_added","time_last_update","user_last_update"
-"C03384","G02712","65; Grab 65","Linearbandkeramik","35","45","adult: young/mature/elderly","adult","1","inhumation","gelab2023a","Item-17819","I16006","gelab2023a","brune2020a: sample mentioned in the descriptive SI but missing from the data table","no aDNA ID provided in the SI file!",NULL,NULL,NULL,NULL
+"C03384","G02712","65; Grab 65","Linearbandkeramik","35","45","adult: young/mature/elderly","adult","1","inhumation","gelab2023a","Item-17819","I16006","gelab2023a","olald2018a: I7197",NULL,NULL,NULL,NULL,NULL
