@@ -1,2 +1,2 @@
 N"PhaseID","SiteID","Culture1","Culture2","Culture3","Subculture","Period","PeriodNotes","Citations","Type","StartBCEreported","EndBCEreported","gaussianModelMu","gaussianModelSigma","GMM","GMS","ellipsoidModelMin","ellipsoidModelDuration","time_added","user_added","time_last_update","user_last_update"
-"RESM2","S10522","Trichterbecher","Trichterbecher","Battle Axe","LNI","LN","Phases I-II","forna2015a; pauls2010a","funerary: grave: passage","2900","1900","4506","264","4520","324","4032","974",NULL,NULL,NULL,NULL
+"BORD1","S10357",NULL,"Tisza","Urnfield",NULL,"LN","Undated remains from disarticulated, fragmented megalithic tomb","de-va2022a","settlement: tell","5400","4500","7490","214","6862","279","7054","842",NULL,NULL,NULL,NULL
