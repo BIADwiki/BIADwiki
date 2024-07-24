@@ -1,2 +1,2 @@
 N"PhaseID","SiteID","Culture1","Culture2","Culture3","Subculture","Period","PeriodNotes","Citations","Type","StartBCEreported","EndBCEreported","gaussianModelMu","gaussianModelSigma","GMM","GMS","ellipsoidModelMin","ellipsoidModelDuration","time_added","user_added","time_last_update","user_last_update"
-"BORD1","S10357",NULL,"Tisza","Urnfield",NULL,"LN","Undated remains from disarticulated, fragmented megalithic tomb","de-va2022a","settlement: tell","5400","4500","7490","214","6862","279","7054","842",NULL,NULL,NULL,NULL
+"PLOC4","S10081",NULL,"Hinkelstein","Grossgartach",NULL,"LN","horizon 4",NULL,"fire: burnt area; pit; vessel: content; cultural layer; settlement; fire: oven","5188","4856","7028","70","6872","335","6959","244",NULL,NULL,NULL,NULL
