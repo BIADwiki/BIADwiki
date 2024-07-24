@@ -1,2 +1,2 @@
 N"PhaseID","SiteID","Culture1","Culture2","Culture3","Subculture","Period","PeriodNotes","Citations","Type","StartBCEreported","EndBCEreported","gaussianModelMu","gaussianModelSigma","GMM","GMS","ellipsoidModelMin","ellipsoidModelDuration","time_added","user_added","time_last_update","user_last_update"
-"PLOC4","S10081",NULL,"Hinkelstein","Grossgartach",NULL,"LN","horizon 4",NULL,"fire: burnt area; pit; vessel: content; cultural layer; settlement; fire: oven","5188","4856","7028","70","6872","335","6959","244",NULL,NULL,NULL,NULL
+"PLOC1","S10081",NULL,"Hinkelstein","Grossgartach",NULL,"LN","horizon 1",NULL,"settlement; cultural layer; pit","4605","4330","8288","146","6880","329","8138","527",NULL,NULL,NULL,NULL
