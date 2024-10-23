@@ -1179,6 +1179,7 @@
 <circle cx='653.83' cy='173.35' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #990066;' />
 <circle cx='665.71' cy='181.70' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #0000FF;' />
 <circle cx='662.77' cy='175.57' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #0000FF;' />
+<circle cx='666.94' cy='182.69' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #0000FF;' />
 <circle cx='660.04' cy='177.60' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #990066;' />
 <circle cx='659.29' cy='175.07' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #0000FF;' />
 <circle cx='664.64' cy='179.67' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #3200CC;' />
@@ -1598,10 +1599,6 @@
 <circle cx='621.87' cy='173.41' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #990066;' />
 <circle cx='622.04' cy='174.11' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #FF0000;' />
 <circle cx='616.93' cy='175.22' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #3200CC;' />
-<circle cx='628.17' cy='176.91' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #FF0000;' />
-<circle cx='624.69' cy='176.68' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #FF0000;' />
-<circle cx='622.98' cy='176.13' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #FF0000;' />
-<circle cx='623.39' cy='176.22' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #990066;' />
 <circle cx='671.54' cy='196.91' r='2.16' style='stroke-width: 0.75; stroke: none; fill: #990066;' />
 <circle cx='66.60' cy='69.12' r='1.89' style='stroke-width: 0.75; stroke: none; fill: #FF0000;' />
 <circle cx='66.60' cy='79.20' r='1.89' style='stroke-width: 0.75; stroke: none; fill: #CC0033;' />
