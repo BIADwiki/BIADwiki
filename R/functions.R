@@ -124,7 +124,7 @@ get.primary.column.from.table <- function(keys, table.name){
 	if(length(column)>1)stop('unclear which column to use')	
 return(column)}
 #----------------------------------------------------------------------------------------------------
-#' Retrieve Table Data from Database
+#' Retrieve Table Entries from Database
 #'
 #' This function queries a database table to retrieve infor about one or multiple entries in the database 
 #'
