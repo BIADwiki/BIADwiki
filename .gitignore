@@ -21,3 +21,5 @@ gmailr.json
 .ppk
 .pem
 API.txt
+*.png
+*.svg
