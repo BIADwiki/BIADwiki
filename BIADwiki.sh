@@ -8,6 +8,7 @@ git pull
 # run R scripts
 cd R
 Rscript controller.R  > controller.Rout
+scp controller.Rout root@biadwiki.org:2222/media/biad/controller.txt #this send file to a docker on biadwiki droplet
 cd ..
 
 # one last pull, then push the changes
