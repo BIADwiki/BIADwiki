@@ -7,7 +7,7 @@ git pull
 
 # run R scripts
 cd R
-Rscript controller.R
+R CMD BATCH --vanilla controller.R 
 cd ..
 
 # one last pull, then push the changes
