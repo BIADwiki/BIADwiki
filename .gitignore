@@ -15,11 +15,11 @@ server.script.R
 
 # files to enable auto emailing
 gmailr.json
-.secret
+.secret*
 
 # keys
 .ppk
 .pem
 API.txt
-*.png
-*.svg
+#*.png
+#*.svg
