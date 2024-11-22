@@ -21,6 +21,8 @@ gmailr.json
 .ppk
 .pem
 API.txt
-
 *.png
 *.svg
+.*.sw?
+R/controller.Rout*
+
