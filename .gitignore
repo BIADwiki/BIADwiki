@@ -24,4 +24,4 @@ API.txt
 *.png
 *.svg
 .*.sw?
-R/controller.Rout
+R/controller.Rout*
