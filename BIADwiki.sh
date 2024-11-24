@@ -16,6 +16,8 @@ scp -F /dev/null -P 2222 controller.Rout_$DATE root@biadwiki.org:/media/biad/
 cd ..
 
 scp -F /dev/null -P 2222 -r tools/templates/ root@biadwiki.org:/media/biad/
+scp -F /dev/null -P 2222 -r tools/summary_stats/ root@biadwiki.org:/media/biad/
+scp -F /dev/null -P 2222 -r tools/table_comments/ root@biadwiki.org:/media/biad/
 
 # one last pull, then push the changes
 git status
