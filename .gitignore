@@ -25,4 +25,4 @@ API.txt
 *.svg
 .*.sw?
 R/controller.Rout*
-
+controller.Rout*
