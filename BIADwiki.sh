@@ -13,6 +13,7 @@ Rscript controller.R > controller.Rout_$DATE
 ## this should be changed and use a symlink to the last, but this will need adjustmenet depending on the docker
 scp -F /dev/null -P 2222 controller.Rout_$DATE root@biadwiki.org:/media/biad/controller_last.txt
 scp -F /dev/null -P 2222 controller.Rout_$DATE root@biadwiki.org:/media/biad/
+mv controller_Rout_$DATE ../tools/logs/
 cd ..
 
 scp -F /dev/null -P 2222 -r tools/templates/ root@biadwiki.org:/media/biad/
