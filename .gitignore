@@ -24,9 +24,6 @@ API.txt
 *.png
 *.svg
 .*.sw?
-<<<<<<< HEAD
 controller.Rout*
-=======
 *controller.Rout*
->>>>>>> 271795b39ca6c2f9fabfcfd4032a0c8ae6fa445c
 tools/logs/*
