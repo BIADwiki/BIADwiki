@@ -1,2 +1,2 @@
-N"PhaseID","CitationID","time_added","user_added","time_last_update","user_last_update"
-"GRAVE3",NULL,NULL,NULL,NULL,NULL
+N"PhaseID","CitationID","DataCited","time_added","user_added","time_last_update","user_last_update"
+"BATAS1",NULL,"Phases",NULL,NULL,NULL,NULL
