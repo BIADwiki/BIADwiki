@@ -11,7 +11,7 @@ DATE=$(date +%Y%m%d)
 cd R
 Rscript controller.R > controller.Rout_$DATE
 ## this should be changed and use a symlink to the last, but this will need adjustmenet depending on the docker
-scp -F /dev/null -P 2222 controller.Rout_$DATE root@biadwiki.org:/media/biad/controller_last.txt
+scp -P 2222 controller.Rout_$DATE tunnel@biadwiki.org:/media/biad/controller_last.txt
 mv controller.Rout_$DATE ../tools/logs/
 cd ..
 
