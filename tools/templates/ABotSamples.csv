@@ -1,2 +1,2 @@
-N"SampleID","PhaseID","TaxonCode","Anatomy1","Anatomy2","Anatomy3","Anatomy4","preservation_type_1","preservation_type_2","LevelOfIdentification","TotalCount","NumberOfContexts","Ubiquity","PresenceOnly","time_added","user_added","time_last_update","user_last_update"
-"918120","BBT","HORSNAK","chaff: rachis internode","chaff: rachis","chaff: glumes/fragments","chaff: glume base","burnt: charred","waterlogged","1","885","19",NULL,"0",NULL,NULL,NULL,NULL
+N"SampleID","PhaseID","TaxonCode","TaxonCodeConfidence","Anatomy1","Anatomy2","Anatomy3","Anatomy4","preservation_type_1","preservation_type_2","TotalCount","NumberOfContexts","Ubiquity","time_added","user_added","time_last_update","user_last_update"
+"918697","HOSCH","TRITDIC","yes","chaff: glume","chaff: husk","chaff: rachis","chaff: spikelet fork","burnt: charred","waterlogged","21","6",NULL,NULL,NULL,NULL,NULL
