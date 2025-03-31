@@ -1,2 +1,2 @@
 N"StrontiumID","IndividualID","ItemID","Species","Material","SkeletalElement","Leachate","Side","Jaw","Position","SegmentLength","SegmentMass","LabCode","Mean_87Sr/86Sr","Error","ppm","MassSpecType","notes","CitationID","time_added","user_added","time_last_update","user_last_update"
-"15420","C12516","Item-16636","homosap","enamel","tooth: M1","yes","left","lower","lower right",NULL,"4.5","3sm_en L1","0.71071","2e-05","82","MC-ICP-MS","settlement burials? Contacted 29.4.2024.","meyer2018a",NULL,NULL,NULL,NULL
+"15420","C12516","Item-16636","homosap","enamel","tooth: M1","yes","left","lower","lower left",NULL,"4.5","3sm_en L1","0.71071","2e-05","82","MC-ICP-MS","settlement burials? Contacted 29.4.2024.","meyer2018a",NULL,NULL,NULL,NULL
