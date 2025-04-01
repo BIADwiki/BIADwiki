@@ -18,6 +18,8 @@ install.package(
       "DiagrammeR",  #cause why not 
       "ggplot2",
       "svglite",
+      "maps",
+      "mapdata",
       "terra", #this is for rnaturalearth
       "sf",
       "gt", #to export table
