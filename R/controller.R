@@ -5,8 +5,9 @@
 # Rather than specifying a CRON schedule for each script, 
 # this script decides when to run which script, based on the filename.
 #------------------------------------------------------------------
-source('functions.R')
-source('functions.database.connect.R')
+# install BIADconnect if required
+if(!'BIADconnect'%in%installed.packages())devtools::install_github("BIADwiki/BIADconnect")
+require(BIADconnect)
 #------------------------------------------------------------------
 run.day <- c('Thu')
 today <- strsplit(date(),split=' ')[[1]][1]

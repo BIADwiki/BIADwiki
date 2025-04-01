@@ -6,9 +6,11 @@
 #--------------------------------------------------------------------------------------
 # Requirements first read:
 # https://biadwiki.org/en/connectR
-# ensure you have opened a tunnel first (e.g. putty)
+# 1. ensure you have opened a tunnel first (e.g. putty)
+# 2. eusure you have installed BIADconnect
 #--------------------------------------------------------------------------------------
-source("https://raw.githubusercontent.com/BIADwiki/BIADwiki/main/R/functions.R")
+if(!'BIADconnect'%in%installed.packages())devtools::install_github("BIADwiki/BIADconnect")
+require(BIADconnect)
 conn  <-  init.conn()
 #--------------------------------------------------------------------------------------
 # query the requested dataset
