@@ -3,7 +3,7 @@
 #-------------------------------------------------------------------------------
 library(gridExtra)
 library(svglite)
-tables <- c('citations','phasecitation','phases','phasetypes','sites','zoptions_types')
+tables <- c('Citations','PhaseCitation','Phases','PhaseTypes','Sites','zoptions_Types')
 conn <- init.conn()
 
 theme <- ttheme_minimal(
