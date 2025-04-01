@@ -46,7 +46,7 @@ INNER JOIN `GraveIndividuals` ON `GraveIndividuals`.`GraveID`=`Graves`.`GraveID`
 WHERE `GraveIndividuals`.`aDNAID` IS NOT NULL;"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -65,7 +65,7 @@ INNER JOIN `Graves` ON `Phases`.`PhaseID`=`Graves`.`PhaseID`
 INNER JOIN `GraveIndividuals` ON `GraveIndividuals`.`GraveID`=`Graves`.`GraveID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -83,7 +83,7 @@ INNER JOIN `Phases` ON `Sites`.`SiteID`=`Phases`.`SiteID`
 INNER JOIN `FaunalSpecies` ON `Phases`.`PhaseID`=`FaunalSpecies`.`PhaseID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -101,7 +101,7 @@ INNER JOIN `Phases` ON `Sites`.`SiteID`=`Phases`.`SiteID`
 INNER JOIN `ABotSamples` ON `Phases`.`PhaseID`=`ABotSamples`.`PhaseID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -118,7 +118,7 @@ sql.command <- "SELECT `Sites`.`SiteID`,`Longitude`,`Latitude`,`C14ID` FROM `Sit
 INNER JOIN `C14Samples` ON `Sites`.`SiteID`=`C14Samples`.`SiteID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -138,7 +138,7 @@ INNER JOIN `GraveIndividuals` ON `GraveIndividuals`.`GraveID`=`Graves`.`GraveID`
 INNER JOIN `HumanIsotopes` ON `HumanIsotopes`.`IndividualID`=`GraveIndividuals`.`IndividualID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -158,7 +158,7 @@ INNER JOIN `GraveIndividuals` ON `GraveIndividuals`.`GraveID`=`Graves`.`GraveID`
 INNER JOIN `Strontium` ON `Strontium`.`IndividualID`=`GraveIndividuals`.`IndividualID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -176,7 +176,7 @@ INNER JOIN `Phases` ON `Sites`.`SiteID`=`Phases`.`SiteID`
 INNER JOIN `FaunalIsotopes` ON `FaunalIsotopes`.`PhaseID`=`Phases`.`PhaseID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -196,7 +196,7 @@ INNER JOIN `GraveIndividuals` ON `GraveIndividuals`.`GraveID`=`Graves`.`GraveID`
 INNER JOIN `Health` ON `Health`.`IndividualID`=`GraveIndividuals`.`IndividualID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
@@ -214,7 +214,7 @@ INNER JOIN `Phases` ON `Sites`.`SiteID`=`Phases`.`SiteID`
 INNER JOIN `MaterialCulture` ON `Phases`.`PhaseID`=`MaterialCulture`.`PhaseID`"
 
 d <- query.database(sql.command = sql.command, conn=conn)
-res <- summary.maker(d)
+res <- summary_maker(d)
 x <- res$summary$Longitude
 y <- res$summary$Latitude
 
