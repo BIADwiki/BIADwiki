@@ -3,6 +3,40 @@
 ## Big Interdisciplinary Archaeological Database
 This github repository supports the BIAD wiki [biadwiki.org](http://biadwiki.org/) by providing a single collaborative repository to develop R code for three main purposes:
 
+
+## Instalation
+
+To use BIADwiki repository you will need to install a few package:
+
+```r
+install.package(
+    c("ADMUR", #to automatically compute date based on C14 sample and phases proximities
+      "httr",#to send  files to wikijs
+      "gridExtra",
+      "rnaturalearth",
+      "DiagrammeRsvg",
+      "DiagrammeR",  #cause why not 
+      "ggplot2",
+      "svglite",
+      "terra", #this is for rnaturalearth
+      "sf",
+      "gt", #to export table
+      "rsvg"
+     )
+)
+```
+!!! note that I (simon) had to install some as sudo (thus doing `sudo R`, before install) because weirdly `admin` can't write in /tmp/ or whatever ; I  don't understand anyway I couldn't compile stuff for SF so it failed, and same for TERRA, and same for FS. very enoying this tmp problem, no time to solve it ATM
+
+
+These package needs some system wide dependencies: 
+```bash
+ apt install libcurl4-openssl-dev\ #for diagrammeRsvg; go knows why they use that... 
+             librsvg2 #for rsvg (I personnally vote to rewrite auto.make.daily.102 to NOT USE diagrammeRsvg 
+             libudunits2-dev  # for units, used by sf
+             libgdal-dev libgeos-dev libproj-dev #aussi pour sfturn out i add to also install libmysqlclient-dev to avoid conflict with mariadb
+```
+
+
 ### 1. R scripts run only by the server
 Various internal consistency checks, summary statistics and images are generated automatically from BIAD and used to populate the BIADwiki.
 These R scripts are prefaced 'auto.make.xxxxxx.R and run on the hosting server regularly. 
