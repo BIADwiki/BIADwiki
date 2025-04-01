@@ -22,9 +22,9 @@ do
 done
 
 # one last pull, then push the changes
-#git status
-#git pull
-#git add -A
-#git commit -m "auto update from server"
-#git push
-#git status
+git status
+git pull
+git add -A
+git commit -m "auto update from server"
+git push
+git status
