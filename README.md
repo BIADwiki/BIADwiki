@@ -15,6 +15,8 @@ Login credentials for the local server are stored in the .Rprofile and therefore
 These scripts will not work if you want to run them externaly from the server as a standard user. To fix this issue it is necessary to first load the functions source("https://raw.githubusercontent.com/BIADwiki/BIADwiki/main/R/functions.R") and to replace the "query.database" function with "run.server.query(query.database(sql.command)".
 
 ### 2. General example R scripts for users
+All below is now deprecated! don't do that!
+
 Files prefaced 'example.xxxxx.R' are generic example files for end users wishing to interact with BIAD via R, for example when building a script to both query and analyse data.
 Get a github account, then clone the whole repository to your local machine to use the scripts. If you want to collaborate with coding (rather than just use it) you will need to request permission to push, from the database administrator.
 Credentials are confidential, so you will first (once only) need to create a .Rprofile, and store it in your R_USER folder. You can check which folder this is by running path.expand('~/') in R.
