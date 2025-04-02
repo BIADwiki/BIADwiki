@@ -27,15 +27,18 @@ install.package(
      )
 )
 ```
-!!! note that I (simon) had to install some as sudo (thus doing `sudo R`, before install) because weirdly `admin` can't write in /tmp/ or whatever ; I  don't understand anyway I couldn't compile stuff for SF so it failed, and same for TERRA, and same for FS. very enoying this tmp problem, no time to solve it ATM
+
+!!! note that I (simon) had to install some as sudo (thus doing `sudo R`, before install) because weirdly `admin` can't write in `/tmp/` or whatever ; I don't understand anyway I couldn't compile stuff for `SF` so it failed, and same for `TERRA`, and same for `FS` & `SASS`, both some frontend stuff used by `gt`. very annoying this tmp problem, no time to solve it atm
 
 
 These package needs some system wide dependencies: 
+
 ```bash
- apt install libcurl4-openssl-dev\ #for diagrammeRsvg; go knows why they use that... 
-             librsvg2 #for rsvg (I personnally vote to rewrite auto.make.daily.102 to NOT USE diagrammeRsvg 
-             libudunits2-dev  # for units, used by sf
-             libgdal-dev libgeos-dev libproj-dev #aussi pour sfturn out i add to also install libmysqlclient-dev to avoid conflict with mariadb
+ apt install libcurl4-openssl-dev \ #for diagrammeRsvg; go knows why they use that... 
+             librsvg2 \  #for rsvg (I personnally vote to rewrite auto.make.daily.102 to NOT USE diagrammeRsvg 
+             libudunits2-dev  \ # for units, used by sf
+             libgdal-dev libgeos-dev libproj-dev \ #these are also used by sf ;
+             libmysqlclient-dev # needed that for libgdal-dev to install, why throwing conflict with mariadb
 ```
 
 
