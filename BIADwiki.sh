@@ -24,7 +24,8 @@ done
 # one last pull, then push the changes
 git status
 git pull
-git add -A
+git add -A tools/table_comments/
+git add -A tools/templates/
 git commit -m "auto update from server"
 git push
 git status
