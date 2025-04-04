@@ -6,7 +6,8 @@
 # this script decides when to run which script, based on the filename.
 #------------------------------------------------------------------
 # install BIADconnect if required
-if(!'BIADconnect'%in%installed.packages())devtools::install_github("BIADwiki/BIADconnect")
+#if(!'BIADconnect'%in%installed.packages())devtools::install_github("BIADwiki/BIADconnect")
+if(!'BIADconnect'%in%installed.packages())install.packages("~/BIADconnect/", repos = NULL, type = "source")
 require(BIADconnect)
 #------------------------------------------------------------------
 run.day <- c('Thu')
