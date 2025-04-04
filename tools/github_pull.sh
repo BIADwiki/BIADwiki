@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # pull from BIADwiki github repository
-cd /home/admin/BIADwkik
+cd /home/admin/BIADwiki
 git status
 git pull
 
