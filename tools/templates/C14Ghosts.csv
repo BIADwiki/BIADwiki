@@ -1,2 +1,6 @@
+<<<<<<< HEAD
 "","C14ID","PhaseID","SiteID","ItemID","Period","C14.Age","C14.SD","δ13C","δ13C.SD","LabID","Prefix","TaxonCode","Material","MaterialNotes","Flag","ContextType","Context","CitationID","time_added","user_added","time_last_update","user_last_update"
+=======
+"","C14ID","PhaseID","SiteID","ItemID","Period","C14.Age","C14.SD","<U+03B4>13C","<U+03B4>13C.SD","LabID","Prefix","TaxonCode","Material","MaterialNotes","Flag","ContextType","Context","CitationID","time_added","user_added","time_last_update","user_last_update"
+>>>>>>> 58d7aa7c173c1682ddbad1b6d06fcbc6dbe8febb
 "1",30556,"CHENCH2","S12609","Item-17701","MM",8020,50,-18.5,NA,"Poz-69161","Poz","animind","bone","leduc2017a: animal bone; grana2017a: charcoal","uncertain sampled material","pit","Structure 2231","leduc2017a",NA,NA,NA,NA
